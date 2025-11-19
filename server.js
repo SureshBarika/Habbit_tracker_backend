@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://your-frontend.onrender.com",  // change this
+  "https://habbit-tracker-frontend-black.vercel.app",  // change this
 ];
 
 app.use(
